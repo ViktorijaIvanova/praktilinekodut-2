@@ -1,5 +1,26 @@
 from math import*
 from random import*
+#harjutus 8
+int(input)
+random_number = random.randint(1,100)
+print(random_number)
+a = 1
+a+=1
+if a % 2 == 0:
+    print("paarisarv")
+else:
+    print("paaritu number")
+while a < 101:
+    print("tsükkel on lõpp")
+
+    
+
+
+
+
+
+
+
 #harjutus 0.2
 x=int()
 s=0
@@ -57,9 +78,26 @@ while True:
        break
     a+=1
 
-#harjutus 8
-a = 1
-while a < 101:
-    print("Tsükkel lõpetatud", a, "aeg(a)")
-    a = a+1
-print("tsükkel on lõpp")
+#ülesanne 6
+n=0
+print ("*kolmnurga")
+for e in range (11,0,-1):
+    n = n+1
+    for f in range (0, n+1):
+        print ("*", end = "")
+    print()
+print("")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
