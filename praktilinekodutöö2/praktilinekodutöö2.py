@@ -26,7 +26,6 @@ while True:
     print ("kõigi aegade  korrutama",pr)
     break
 
-
 #harjutus 0
 x=int()
 s=0
