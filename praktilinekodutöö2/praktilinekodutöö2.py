@@ -90,6 +90,77 @@ print("")
 
 
 
+Exercise 8.1
+a = random.randint(1, 100)
+a = int(input("sisetaga number:"))
+
+while a < 101:
+    
+    if a % 2 == 0:
+        print("paaris number")
+        print("tsükkel on lõpp")
+    elif a % 2 == 1:
+        print("paaritu number")
+        print("tsükkel on lõpp")
+    break
+
+else:
+    print("Proovige veel üks kord")
+    
+    
+    
+Exercise 8.2
+from math import*
+
+a = int(input("sisetage number:"))
+
+while True:
+        if a <= 100:
+            print(a)
+            if a % 2 == 0:
+                print("paaris number")
+                print("tsükkel on lõpp")
+            elif a % 2 == 1:
+                print("paaritu number")
+                print("tsükkel on lõpp")
+            break
+        
+        else:
+            print("Proovige veel kord")
+            break
+            
+            
+         
+
+Exercise 0.1
+indeks=int(input("Kirjuta oma postindeksi: "))#12345
+a=5
+
+while len(str(indeks)) == a:
+    print("See on sinu postindeks")
+    print(indeks)#12345
+    break
+else:
+    print('Ebakorrektne indeks, indeksil on peab olema 5 tähti')
+    
+
+
+Exercise 0.2
+while True:
+    try:
+        indeks = input("Kirjuta oma postindeksi: ")#12345
+        if (5 == len(indeks) and indeks.isdigit()):
+            break
+        else:
+            print('Ebakorrektne indeks, indeksil on peab olema 5 tähti')
+    except :
+        print("Viga")
+print("See on sinu postindeks")
+print(indeks)#12345
+
+
+
+
 
 
 
